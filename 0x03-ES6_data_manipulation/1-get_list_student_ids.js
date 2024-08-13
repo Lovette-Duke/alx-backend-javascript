@@ -3,7 +3,7 @@
  */
 
 export default function getListStudentIds(students) {
-	if (studens instanceof Array)) {
+	if (students instanceof Array)) {
 		return students.map((student) => student.id);
 	}
 	return [];
